@@ -10,6 +10,7 @@ export default function Hero() {
   return (
     <>
       <div className={style.hero}>
+        <div className={`blur ${style.heroBlur}`}></div>
         <div className={style.left}>
           <Header />
           {/*the best ad*/}

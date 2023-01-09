@@ -6,6 +6,8 @@ export default function Plans() {
   return (
     <>
       <div className={style.plansContainer}>
+        <div className={`blur ${style.plansBlur1}`}></div>
+        <div className={`blur ${style.plansBlur2}`}></div>
         <div className={style.plansHeader}>
           <span className="stroke-text">READY TO START</span>
           <span>YOUR JOURNEY</span>

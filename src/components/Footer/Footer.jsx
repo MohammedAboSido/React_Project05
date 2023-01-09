@@ -20,6 +20,8 @@ export default function Footer() {
             <img src={logo} alt="" />
           </div>
         </div>
+        <div className={`blur ${style.footerBlur1}`}></div>
+        <div className={`blur ${style.footerBlur2}`}></div>
       </div>
     </>
   );
