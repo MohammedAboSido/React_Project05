@@ -12,7 +12,7 @@ export default function Hero() {
   const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <>
-      <div className={style.hero}>
+      <div className={style.hero} id="home">
         <div className={`blur ${style.heroBlur}`}></div>
         <div className={style.left}>
           <Header />
