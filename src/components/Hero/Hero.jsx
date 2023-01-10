@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import NumberCounter from "number-counter";
 import React from "react";
 import calories from "../../assets/calories.png";
 import heart from "../../assets/heart.png";
@@ -44,15 +45,21 @@ export default function Hero() {
           {/* Figures */}
           <div className={style.figures}>
             <div>
-              <span>+ 140</span>
+              <span>
+                <NumberCounter end={140} start={100} delay="4" preFix="+" />
+              </span>
               <span>EXPERT COACHES</span>
             </div>
             <div>
-              <span>+ 978</span>
+              <span>
+                <NumberCounter end={978} start={800} delay="4" preFix="+" />
+              </span>
               <span>MEMBERS JOINED</span>
             </div>
             <div>
-              <span>+ 50</span>
+              <span>
+                <NumberCounter end={50} start={0} delay="4" preFix="+" />
+              </span>
               <span>FITNESS PROGRAMS</span>
             </div>
           </div>
